@@ -94,9 +94,9 @@ strong { font-weight: 600; }
    ========================================================================== */
 
 .hero-section {
-  background: url(../img/bg.jpg) center center no-repeat scroll;
+  background: url(../img/header_image.jpg) center center no-repeat scroll;
   background-size: cover;
-  padding: 0 0 4.5em;
+  padding: 4.5em 0 4.5em;
   position: relative;
   color: #fff;
 }
@@ -116,9 +116,10 @@ strong { font-weight: 600; }
 
 .hero-section::before { background: rgba(0, 0, 0, 0.3); }
 
-.welcome-message { margin-top: 80px !important; }
-
+/*.welcome-message { margin-top: 80px; }
+*/
 .welcome-message .logo {
+
   margin-bottom: 60px;
 }
 .welcome-message h1 {
@@ -889,9 +890,9 @@ blockquote cite {
 
 @media (min-width: 768px) {
 
-.hero-section { padding: 0 0 7.5em; }
+.hero-section { padding: 9em 0 9em; }
 
-.welcome-message { margin-top: 8.25em; }
+/*.welcome-message { margin-top: 8.25em;*/ }
 
 .welcome-message h1 { font-size: 44px; }
 
