@@ -7,14 +7,15 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   overflow-x: hidden;
 }
 
 p {
   font-weight: 400;
   color: #4c4c4c;
-  font-size: 17px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 h1,
@@ -70,18 +71,19 @@ strong { font-weight: 600; }
 .section-spacing-top {
   padding-top: 4.5em;
 }
+.section-header {
+  margin-bottom: 60px;
+}
+
 /* ==========================================================================
    Heading
    ========================================================================== */
 .heading {
   background-color: #141724;
 }
-
-/* ==========================================================================
-   5.Featured on
-   ========================================================================== */
-
-
+.heading .section-header {
+  margin-bottom: 0;
+}
 .section-header h2 {
   font-size: 24px;
   font-weight: 600;
@@ -94,26 +96,6 @@ strong { font-weight: 600; }
   margin: 0;
 }
 
-.featured-on,
-.features,
-.tour,
-.site-footer { background-color: rgba(0, 0, 0, 0.03); }
-
-.section-spacing,
-.section-spacing.featured-on,
-.section-spacing.tour,
-.section-spacing.site-footer { padding: 3.75em 0; }
-
-.featured-on .section-header { margin-bottom: 3em; }
-
-.featured-sites li { padding: 0 3em 1.5em; }
-
-.featured-sites li:last-child { padding-bottom: 0; }
-
-.featured-sites img {
-  height: 36px;
-  margin: 20px 0;
-}
 
 
 /* ==========================================================================
@@ -121,9 +103,6 @@ strong { font-weight: 600; }
    ========================================================================== */
 .benefits {
   background-color: #f8f8f8;
-}
-.benefits .section-header {
-  margin-bottom: 60px;
 }
 
 .benefits p { color: #8A8A8A; }
@@ -190,26 +169,22 @@ strong { font-weight: 600; }
 }
 
 /* ==========================================================================
-   9.tour
+   information
    ========================================================================== */
 
-.center-block { float: none; }
-
-.tour h2 {
-  font-size: 24px;
-  font-weight: 400;
-  margin: 0;
+.information ul li {
+  padding-left: 20px;
+  text-indent: -.4em;
 }
-
-.tour .btn {
-  margin-top: 1em;
-  vertical-align: initial;
+.information ul li:before {
+  content: "• ";
+  font-size: 18px;
+  color: #F56363;
+  padding-right: 0.5em;
 }
-
-.tour .btn i,
-.sub-form .btn i { padding-left: .5em; }
-
-
+.information .col-md-6 {
+  margin-bottom: 30px;
+}
 /* ==========================================================================
   11.reviews
    ========================================================================== */

@@ -36,14 +36,14 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   overflow-x: hidden;
 }
 
 p {
   font-weight: 400;
   color: #4c4c4c;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 h1,
@@ -330,9 +330,7 @@ transform:translateY(0);
    6.Benefits
    ========================================================================== */
 
-.benefits {
-  background-color: #f8f8f8;
-}
+
 
 .benefits img { margin-bottom: .75em; }
 
