@@ -228,6 +228,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/header_image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 248295,
+		"inputAbbreviatedPath": "\/img\/header_image.jpg",
+		"outputAbbreviatedPath": "\/img\/header_image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-head.png": {
 		"fileType": 32768,
 		"ignore": 0,

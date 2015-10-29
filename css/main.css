@@ -94,7 +94,10 @@ strong { font-weight: 600; }
    ========================================================================== */
 
 .hero-section {
-  background: url(../img/header_image.jpg) center center no-repeat scroll;
+  background: linear-gradient(
+      rgba(20, 23, 36, 0.6),
+      rgba(20, 23, 36, 0.6)
+    ), url(../img/header_image.jpg) center center no-repeat scroll;
   background-size: cover;
   padding: 4.5em 0 4.5em;
   position: relative;
