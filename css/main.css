@@ -330,7 +330,9 @@ transform:translateY(0);
    6.Benefits
    ========================================================================== */
 
-
+.benefits {
+  background-color: #f8f8f8;
+}
 
 .benefits img { margin-bottom: .75em; }
 
@@ -619,6 +621,8 @@ blockquote cite {
   font-size: 19px;
   font-weight: 400;
   margin-top: 0;
+
+  color: #ddd !important;
 }
 
 .team div[class^="col-"]:nth-child(3) .team-info h5 { margin: 0; }
