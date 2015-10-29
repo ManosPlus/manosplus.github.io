@@ -74,6 +74,72 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/01_logo_apoyo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9848,
+		"inputAbbreviatedPath": "\/img\/01_logo_apoyo.png",
+		"outputAbbreviatedPath": "\/img\/01_logo_apoyo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/02_logo_apoyo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1428,
+		"inputAbbreviatedPath": "\/img\/02_logo_apoyo.png",
+		"outputAbbreviatedPath": "\/img\/02_logo_apoyo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/03_logo_apoyo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1050,
+		"inputAbbreviatedPath": "\/img\/03_logo_apoyo.png",
+		"outputAbbreviatedPath": "\/img\/03_logo_apoyo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/04_logo_apoyo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12028,
+		"inputAbbreviatedPath": "\/img\/04_logo_apoyo.png",
+		"outputAbbreviatedPath": "\/img\/04_logo_apoyo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/05_logo_apoyo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3832,
+		"inputAbbreviatedPath": "\/img\/05_logo_apoyo.png",
+		"outputAbbreviatedPath": "\/img\/05_logo_apoyo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/06_logo_apoyo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56325,
+		"inputAbbreviatedPath": "\/img\/06_logo_apoyo.png",
+		"outputAbbreviatedPath": "\/img\/06_logo_apoyo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/benefits-1.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -314,18 +314,17 @@ transform:translateY(0);
 .section-spacing.tour,
 .section-spacing.site-footer { padding: 3.75em 0; }
 
-.featured-on .section-header { margin-bottom: 1.5em; }
+.featured-on .section-header { margin-bottom: 3em; }
 
 .featured-sites li { padding: 0 3em 1.5em; }
 
 .featured-sites li:last-child { padding-bottom: 0; }
 
 .featured-sites img {
-  opacity: .15;
-  transition: all 0.5s linear;
+  height: 36px;
+  margin: 20px 0;
 }
 
-.featured-sites img:hover { opacity: .2; }
 
 /* ==========================================================================
    6.Benefits
@@ -1042,5 +1041,23 @@ blockquote::before {
 
 @media (max-width: 460px) {
 
-.video-tour .play-btn img { width: 45%; }
+  .video-tour .play-btn img { width: 45%; }
+}
+/* ==========================================================================
+   Forms suscribir width mobile
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  #mc-form {
+    width: 80% !important;
+  }
+}
+@media (max-width: 600px) {
+  #mc-form {
+    width: 100% !important;
+  }
+  .featured-sites img {
+    display: block;
+    height: 50px;
+  }
 }
