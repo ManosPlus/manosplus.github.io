@@ -878,7 +878,7 @@ blockquote cite {
   position: relative;
   transition: all .8s ease;
   font-size: 1.3em;
-  background: #a6a6a6;
+  background: #CCCCCC;
 }
 
 .social li a:hover {
