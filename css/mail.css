@@ -241,16 +241,18 @@ blockquote cite {
 
 .cta-section .btn {
   background-color: #fff;
-  color: #f56363;
+  color: #00a2fc;
   border: 1px solid transparent;
+  margin-right: 10px;
+  padding: 20px 40px;
 }
-
-.cta-section .btn:hover {
-  background-color: transparent;
-  color: #fff;
-  border: 1px solid #fff;
+.cta-section .btn:last-child {
+  margin-right: 0;
 }
-
+.cta-section .btn i {
+  margin-right: 10px;
+  font-size: 30px;
+}
 .cta-section p {
   color: #fff;
   margin: .75em 0 0;

@@ -583,15 +583,10 @@ blockquote cite {
 
 .cta-section .btn {
   background-color: #fff;
-  color: #f56363;
+  color: #fff;
   border: 1px solid transparent;
 }
 
-.cta-section .btn:hover {
-  background-color: transparent;
-  color: #fff;
-  border: 1px solid #fff;
-}
 
 .cta-section p {
   color: #fff;
