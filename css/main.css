@@ -890,7 +890,7 @@ blockquote cite {
 
 @media (min-width: 768px) {
 
-.hero-section { padding: 9em 0 9em; }
+.hero-section { padding: 7em 0; }
 
 /*.welcome-message { margin-top: 8.25em;*/ }
 
@@ -1083,7 +1083,7 @@ blockquote::before {
 .socials li a {
   padding: 10px 20px;
   width: 48%;
-  line-height: 2.6;
+  line-height: 2;
   text-align: center;
   display: inline-block;
   float: left;
@@ -1093,7 +1093,7 @@ blockquote::before {
 
 .socials li a i {
   margin-right: 10px;
-  font-size: 26px;
+  font-size: 20px;
 }
 .btn-fb {
   background-color: #4a67ae;
@@ -1104,10 +1104,10 @@ blockquote::before {
 .btn-tw {
   background-color: #30c4f1;
 }
-.social-top  .col-md-4 p {
-  font-size: 18px !important;
+.social-top  .col-md-5 p {
+  font-size: 20px !important;
   color: #333;
-  line-height: 2.6;
+  line-height: 2;
 }
 @media (max-width: 480px) {
   .socials li a {
