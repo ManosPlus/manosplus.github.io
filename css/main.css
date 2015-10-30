@@ -817,7 +817,7 @@ blockquote cite {
 
 .error { color: #FF4C4C !important; }
 
-.valid { color: #4CAF50 !important; }
+.valid { color: #00aa5f !important; }
 
 .error i,
 .valid i { padding-right: .5em; }
@@ -868,15 +868,15 @@ blockquote cite {
 
 .social li a {
   display: block;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  color: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #001127;
   border-radius: 50%;
   position: relative;
   transition: all .8s ease;
   font-size: 1.3em;
-  background: #CCCCCC;
+  background: #fff;
 }
 
 .social li a:hover {
@@ -890,7 +890,7 @@ blockquote cite {
 
 @media (min-width: 768px) {
 
-.hero-section { padding: 7em 0; }
+.hero-section { padding: 7.1em 0; }
 
 /*.welcome-message { margin-top: 8.25em;*/ }
 
@@ -1107,7 +1107,7 @@ blockquote::before {
 .social-top  .col-md-5 p {
   font-size: 20px !important;
   color: #333;
-  line-height: 2;
+  line-height: 40px;
 }
 @media (max-width: 480px) {
   .socials li a {
