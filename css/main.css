@@ -38,6 +38,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   overflow-x: hidden;
+  color: #4c4c4c;
 }
 
 p {
@@ -832,7 +833,7 @@ blockquote cite {
 
 
 .site-footer {
-  background-color: #141724;
+  background-color: #000e1e;
 }
 .site-footer small {
   display: inline-block;
@@ -1068,3 +1069,66 @@ blockquote::before {
     display: none;
   }
 }
+
+/* ==========================================================================
+   Social header top
+   ========================================================================== */
+.social-top {
+  background-color: #D8D8D8;
+}
+.social-top.section-spacing {
+  padding: 2em 0;
+}
+.socials li {
+  display: block;
+}
+.socials li:nth-child(even) {
+  margin: 0 20px;
+}
+.socials li a {
+  padding: 10px 20px;
+  width: 48%;
+  line-height: 2.6;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.socials li a i {
+  margin-right: 10px;
+  font-size: 26px;
+}
+.btn-fb {
+  background-color: #4a67ae;
+}
+.btn-fb:hover, .btn-tw:hover {
+  background-color: #00a2fc;
+}
+.btn-tw {
+  background-color: #30c4f1;
+}
+.social-top  .col-md-4 p {
+  font-size: 18px !important;
+  color: #333;
+  line-height: 2.6;
+}
+/*@media (max-width: 480px) {
+  .socials li a {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .socials li:nth-child(even) {
+    margin: 0px 10px;
+  }
+}
+@media (max-width: 320px) {
+  .socials li a {
+    width: 290px;
+    margin-bottom: 20px;
+  }
+  .socials li:nth-child(even) {
+    margin: 0px;
+  }
+}*/
