@@ -1114,21 +1114,18 @@ blockquote::before {
   color: #333;
   line-height: 2.6;
 }
-/*@media (max-width: 480px) {
+@media (max-width: 480px) {
   .socials li a {
-    width: 200px;
+    width: 100%;
     margin-bottom: 20px;
-  }
-  .socials li:nth-child(even) {
-    margin: 0px 10px;
-  }
-}
-@media (max-width: 320px) {
-  .socials li a {
-    width: 290px;
-    margin-bottom: 20px;
+     margin-right: 0px;
   }
   .socials li:nth-child(even) {
     margin: 0px;
   }
-}*/
+  .social-top  .col-md-4 p {
+    font-size: 18px !important;
+    color: #333;
+    line-height: 1;
+  }
+}
