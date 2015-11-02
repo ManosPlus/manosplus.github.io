@@ -11,7 +11,7 @@
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!--   <link href="css/mail.css" rel="stylesheet"> -->
 
   <style>
@@ -97,6 +97,9 @@ strong { font-weight: 600; }
    ========================================================================== */
 .heading {
   background-color: #141724;
+}
+.heading.section-spacing {
+  padding: 2em 0;
 }
 .heading .section-header {
   margin-bottom: 0;
@@ -283,7 +286,21 @@ blockquote cite {
   font-weight: 300;
   color: #fff;
 }
+.cta-section .section-header h4 {
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.5;
+}
 
+.cta-section.section-spacing{
+  padding: 5em 0 !important;
+}
+@media (max-width: 460px){
+  .cta-section .btn {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
 .cta-section .btn {
   background-color: #fff;
   color: #00a2fc;
@@ -331,6 +348,12 @@ blockquote cite {
 .team div[class^="col-"]:nth-child(3) .team-info h5 { margin: 0; }
 
 .team p { color: #fff; }
+
+@media (max-width: 800px) {
+  .team-details {
+    margin-bottom: 40px;
+  }
+}
 
 .team-details figure {
   position: relative;
@@ -495,7 +518,7 @@ blockquote cite {
   display: inline-block;
 }
 
-.section-spacing { padding: 3em 0; }
+.section-spacing { padding: 4em 0; }
 
 .contact.section-spacing { padding: 4.5em 0 0; }
 
@@ -628,7 +651,9 @@ blockquote::before {
 }
 
 @media (max-width: 460px) {
-
+  .cta-section .section-header h4 {
+    line-height: 2;
+  }
   .video-tour .play-btn img { width: 45%; }
 }
 /* ==========================================================================
@@ -692,23 +717,26 @@ blockquote::before {
   <div class="information section-spacing">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-12">
           <h3>ManosPlus</h3>
-          <p>ManosPlus es un diccionario de lengua de señas colombina digital que incluye definiciones, sinonimos, antonimos, imagenes y conjugaciones, adicionalmente a esto tiene una libreria digital donde esta distribuido por categorias y novedades para los interpretes</p>
+          <p>Somos #comunicacionaccesible, una aplicación móvil web dinámica en la que la lengua de señas juega un papel importante, como una forma de comunicación masiva y  de adquisición de nuevos conocimientos.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-12">
           <h3>Diccionario Plus</h3>
-          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</p>
+          <p>Contarás con definición visual de cada palabra, su sinónimo, imagen y formas de conjugarlas, abecedario en señas, una librería en la cual encontrarás grupos de señas divididos por categorías y un espacio dedicado a los intérpretes el cual los apoyara con tips para su campo de acción, preguntas comunes entre ambas comunidades señadas para facilitar la comunicación.</p>
         </div>
       </div>
       <div class="row">
-         <div class="col-md-6">
+         <div class="col-md-6 col-xs-12">
           <h3>Busca manual y corporal</h3>
-          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</p>
+          <p>Al ingresar a este encontrarás los siguientes segmentos: Cabeza, Cuerpo, Brazo y mano, allí podrás buscar una seña, por secciones del cuerpo, esta búsqueda beneficiara a la comunidad sorda que no maneje el español y a la comunidad oyente cuando desee saber el significado en español de alguna seña vista.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-12">
           <h3>Marcador Social</h3>
-          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</p>
+          <p>En este podrás interactuar de dos formas.</p>
+          <p><strong> La primera:</strong> Sabemos que algunas señas se diferencian por regiones por lo cual tendrás un espacio para realizar votación por la seña más utilizada esta con el objetivo de apoyar al intérprete en campos de acción a nivel nacional, pero siempre respetando la cultura señante de cada región.</p>
+          <p> <strong>La segunda:</strong> Si hay algún texto que no entiendas y requieras interpretación, podras subir la foto de esta a la App, con el fin de que algún usuario pueda ayudarte con la interpretación subiendo la respuesta, por medio de un video.
+          </p>
         </div>
       </div>
     </div>
@@ -720,7 +748,7 @@ blockquote::before {
     <div class="container">
       <header class="section-header">
         <h2>Trate Lanzamiento Pronto!</h2>
-        <h3>Limited signup only. Order today before the discount period ends.</h3>
+        <h4>Te estaremos avisando al correo con el cual te suscribiste a nuestra web la fecha del lanzamiento oficial de la App ManosPlus para que puedas hacer uso de ella y disfrutarla, recuerda apoyarnos dando la vuelta al mundo con #comunicacionaccesible.</h4>
       </header>
       <div class="row">
         <div class="col-md-12">
@@ -742,7 +770,7 @@ blockquote::before {
         <h3>La gente que creó este producto impresionante</h3>
       </header>
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-xs-6">
           <div class="team-details">
             <figure><img src="img/team_1.jpg" alt="Andrés Felipe Marulanda">
               <figcaption>
@@ -759,7 +787,7 @@ blockquote::before {
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-xs-6">
           <div class="team-details">
             <figure><img src="img/team_2.jpg" alt="Team Member">
               <figcaption>
@@ -776,7 +804,7 @@ blockquote::before {
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-xs-6">
           <div class="team-details">
             <figure><img src="img/team_3.jpg" alt="Team Member">
               <figcaption>
@@ -793,7 +821,7 @@ blockquote::before {
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-xs-6">
           <div class="team-details">
             <figure><img src="img/team_4.jpg" alt="Team Member">
               <figcaption>
