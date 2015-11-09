@@ -1,4 +1,3 @@
-
 /* ==========================================================================
    1.General
    ========================================================================== */
@@ -80,6 +79,9 @@ strong { font-weight: 600; }
    ========================================================================== */
 .heading {
   background-color: #141724;
+}
+.heading.section-spacing {
+  padding: 2em 0;
 }
 .heading .section-header {
   margin-bottom: 0;
@@ -266,7 +268,21 @@ blockquote cite {
   font-weight: 300;
   color: #fff;
 }
+.cta-section .section-header h4 {
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.5;
+}
 
+.cta-section.section-spacing{
+  padding: 5em 0 !important;
+}
+@media (max-width: 460px){
+  .cta-section .btn {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
 .cta-section .btn {
   background-color: #fff;
   color: #00a2fc;
@@ -305,7 +321,7 @@ blockquote cite {
 }
 
 .team h5 {
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 400;
   margin-top: 0;
   color: #AEAEAE;
@@ -314,6 +330,12 @@ blockquote cite {
 .team div[class^="col-"]:nth-child(3) .team-info h5 { margin: 0; }
 
 .team p { color: #fff; }
+
+@media (max-width: 800px) {
+  .team-details {
+    margin-bottom: 40px;
+  }
+}
 
 .team-details figure {
   position: relative;
@@ -478,7 +500,7 @@ blockquote cite {
   display: inline-block;
 }
 
-.section-spacing { padding: 3em 0; }
+.section-spacing { padding: 4em 0; }
 
 .contact.section-spacing { padding: 4.5em 0 0; }
 
@@ -611,7 +633,9 @@ blockquote::before {
 }
 
 @media (max-width: 460px) {
-
+  .cta-section .section-header h4 {
+    line-height: 2;
+  }
   .video-tour .play-btn img { width: 45%; }
 }
 /* ==========================================================================
