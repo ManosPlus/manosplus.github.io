@@ -40,7 +40,7 @@ a {
 a:hover,
 a:focus {
   color: #fa5454;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:focus { outline: none; }
