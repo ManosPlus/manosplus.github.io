@@ -1080,7 +1080,7 @@ blockquote::before {
 .socials li:nth-child(even) {
   margin: 0 20px;
 }
-.socials li div {
+.socials li a{
   padding: 10px 20px;
   width: 48%;
   line-height: 2;
@@ -1090,8 +1090,11 @@ blockquote::before {
   margin-right: 10px;
   color: #fff;
 }
+.fb-share-button {
+  padding: 10px 20px !;
+}
 
-.socials li div i {
+.socials li a i {
   margin-right: 10px;
   font-size: 20px;
 }
