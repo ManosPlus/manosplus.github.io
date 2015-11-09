@@ -5,6 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta property="og:url"           content="http://manosplus.github.io/" />
+    <meta property="og:type"          content="ManosPlus" />
+    <meta property="og:title"         content="ManosPlus Proximamente" />
+    <meta property="og:description"   content="Somos #comunicacionaccesible, una aplicación móvil web dinámica en la que la lengua de señas juega un papel importante, como una forma de comunicación masiva y de adquisición de nuevos conocimientos." />
+    <meta property="og:image"         content="http://manosplus.github.io/img/share-fb.png" />
   <title>ManosPlus | Landing Page</title>
   <meta name="description" content="ManosPlus Landing Page">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -61,7 +66,7 @@
     <div class="row">
       <div class="col-md-7">
         <ul class="socials">
-            <li><a href="https://www.facebook.com/manosplus" target="_blank" class="btn-fb"><i class="fa fa-facebook"></i>Compartir en Facebook</a></li>
+            <li><div class="fb-share-button" data-href="http://manosplus.github.io/" data-layout="button"></div></li>
             <li><a href="https://twitter.com/ManosPlus" target="_blank" class="btn-tw"><i class="fa fa-twitter"></i>Compartir en Twitter</a></li>
           </ul>
       </div>
@@ -117,6 +122,14 @@
     </div>
   </footer>
   <!--site-footer end-->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

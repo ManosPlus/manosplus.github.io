@@ -1080,7 +1080,7 @@ blockquote::before {
 .socials li:nth-child(even) {
   margin: 0 20px;
 }
-.socials li a {
+.socials li div {
   padding: 10px 20px;
   width: 48%;
   line-height: 2;
@@ -1091,7 +1091,7 @@ blockquote::before {
   color: #fff;
 }
 
-.socials li a i {
+.socials li div i {
   margin-right: 10px;
   font-size: 20px;
 }
@@ -1110,7 +1110,7 @@ blockquote::before {
   line-height: 40px;
 }
 @media (max-width: 480px) {
-  .socials li a {
+  .socials li div {
     width: 100%;
     margin-bottom: 20px;
      margin-right: 0px;
