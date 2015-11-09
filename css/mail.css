@@ -3,7 +3,7 @@
    ========================================================================== */
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif !important;
   line-height: 1.8;
   font-weight: 400;
   font-size: 15px;
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600;
+  font-weight: 700;
   color: #4c4c4c;
 }
 
@@ -214,6 +214,9 @@ strong { font-weight: 600; }
 }
 .information .col-md-6 {
   margin-bottom: 30px;
+}
+.information .col-md-6 h3 {
+  font-weight: 700;
 }
 /* ==========================================================================
   11.reviews
