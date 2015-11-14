@@ -120,7 +120,6 @@ strong { font-weight: 600; }
 .benefits div[class^="col-"] video-beneficar> p:last-child { margin-bottom: 0; }
 
 .video-beneficar {
-  padding: 10px 0;
   display: block;
   line-height: 1.5;
   height: 50px;
