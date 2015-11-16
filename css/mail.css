@@ -262,6 +262,20 @@ strong { font-weight: 600; }
    position: relative;
    top: 24px;
 }
+@media screen and (max-width: 800px) {
+  .information .circulo {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .information .col-md-6 h3 {
+
+    text-align: center;
+  }
+  .information .col-md-6 h3:after {
+    margin: 0 auto;
+  }
+}
 /* ==========================================================================
   11.reviews
    ========================================================================== */
