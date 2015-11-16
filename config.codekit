@@ -149,17 +149,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/15_17_MP_LandingPage_Mail_Header_Design_V1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/15_17_MP_LandingPage_Mail_Header_Design_V1.png",
-		"outputAbbreviatedPath": "\/img\/15_17_MP_LandingPage_Mail_Header_Design_V1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/bg-fbk.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -178,17 +167,6 @@
 		"initialSize": 941008,
 		"inputAbbreviatedPath": "\/img\/header-mobile-2.png",
 		"outputAbbreviatedPath": "\/img\/header-mobile-2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/header-mobile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 874091,
-		"inputAbbreviatedPath": "\/img\/header-mobile.png",
-		"outputAbbreviatedPath": "\/img\/header-mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
