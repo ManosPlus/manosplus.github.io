@@ -6,42 +6,23 @@ $(function() {
    ========================================================================== */
 
 
-/*
+
     $('#mc-form').ajaxChimp({
         language: 'cm',
+        /*url: 'http://csmthemes.us3.list-manage.com/subscribe/post?u=9666c25a337f497687875a388&id=5b881a50fb'*/
         url: 'http://us12.campaign-archive2.com/?u=599e864e8bdbea0168be40214&id=9b39ac59e0'
             //http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-    });*/
-
-    $('#mc-form').submit(function(e) {
-  var $this = $(this);
-  $.ajax({
-      type: "GET", // GET & url for json slightly different
-      url: "http://us12.campaign-archive2.com/?u=599e864e8bdbea0168be40214&id=9b39ac59e0",
-      data: $this.serialize(),
-      dataType    : 'json',
-      contentType: "application/json; charset=utf-8",
-      error       : function(err) { alert("Could not connect to the registration server."); },
-      success     : function(data) {
-          if (data.result != "success") {
-              // Something went wrong, parse data.msg string and display message
-          } else {
-              // It worked, so hide form and display thank-you message.
-          }
-      }
-  });
-  return false;
-});
+    });
 
 
     $.ajaxChimp.translations.cm = {
         'submit': 'Submitting...',
-        0: '<i class="fa fa-envelope"></i> ¡Impresionante! Te hemos enviado un email de confirmación',
-        1: '<i class="fa fa-exclamation-triangle"></i> Por favor introduzca un valor',
-        2: '<i class="fa fa-exclamation-triangle"></i> Una dirección de correo electrónico debe contener una sola @',
-        3: '<i class="fa fa-exclamation-triangle"></i> La parte de dominio de la dirección de correo electrónico no es válido (la porción después de la @: )',
-        4: '<i class="fa fa-exclamation-triangle"></i> La parte de nombre de usuario de la dirección de correo electrónico no es válido la porción antes de la @: )',
-        5: '<i class="fa fa-exclamation-triangle"></i> Esta dirección de correo electrónico se ve falso o inválido. Introduzca una dirección de correo electrónico real.'
+        0: '<i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email',
+        1: '<i class="fa fa-exclamation-triangle"></i> Please enter a value',
+        2: '<i class="fa fa-exclamation-triangle"></i> An email address must contain a single @',
+        3: '<i class="fa fa-exclamation-triangle"></i> The domain portion of the email address is invalid (the portion after the @: )',
+        4: '<i class="fa fa-exclamation-triangle"></i> The username portion of the email address is invalid (the portion before the @: )',
+        5: '<i class="fa fa-exclamation-triangle"></i> This email address looks fake or invalid. Please enter a real email address'
     };
 
 
